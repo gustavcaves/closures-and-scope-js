@@ -12,6 +12,12 @@ function printHellos(params) {
 
 printHellos()
 
+
+
+
 const helloWorld = () => {
-    globalVar = "Hello desde Funtion Arrow sin asignar var let o const"
+    globalVar = "Hello soy global desde Funtion Arrow sin asignar var let o const"
 }
+
+helloWorld()
+console.log(globalVar)
