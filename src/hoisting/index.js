@@ -9,6 +9,8 @@ var a = 2;
 
 nameOfDog("Elmo")
 
-function nameOfDog(name) {
+function nameOfDog(name) 
+
+{
     console.log(name);
-}
+};
